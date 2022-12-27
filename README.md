@@ -1,38 +1,38 @@
-# GitHub Pages to host CB-MCKS API Documentation
+# GitHub Pages to host CB-Ladybug API Documentation
 
-CB-MCKS is a Framework for Cloud-Barista Platform to Manage Multi-Cloud Kubernetes Service.
-(https://github.com/cloud-barista/cb-mcks)
+CB-Ladybug is a framework to manage multi-cloud application runtimes in Cloud-Barista platform.
+(https://github.com/cloud-barista/cb-ladybug)
 
-This repository is to host CB-MCKS API Documentation in GitHub Pages.
+This repository is to host CB-Ladybug API Documentation in GitHub Pages.
 
 ```
 [NOTE]
-CB-MCKS is currently under development. (the latest version is 0.4 Cafe Mocha)
+CB-Ladybug is currently under development. (the latest version is 0.7.0 (Cortado))
 So, we do not recommend using the current release in production.
-Please note that the functionalities of CB-MCKS are not stable and secure yet.
-If you have any difficulties in using CB-MCKS, please let us know.
+Please note that the functionalities of CB-Ladybug are not stable and secure yet.
+If you have any difficulties in using CB-Ladybug, please let us know.
 (Open an issue or Join the cloud-barista Slack)
 ```
 
-The API document in this repo is for CB-MCKS master branch. 
-(https://github.com/cloud-barista/cb-mcks/tree/master)
+The API document in this repo is for CB-Ladybug master branch.
+(https://github.com/cloud-barista/cb-ladybug/tree/master)
 
 It is not for API release but for development.
 (master branch is a dev branch)
 
 ## Access the API documentation page
 
-Access to: https://cloud-barista.github.io/cb-mcks-api-web/
+Access to: https://cloud-barista.github.io/cb-ladybug-api-web/
 (Authorize with `default`/`default`)
 
 ## How to update the API documentation page
 
 Replace 
 
-https://github.com/cloud-barista/cb-mcks-api-web/blob/master/swagger.yaml 
+https://github.com/cloud-barista/cb-ladybug-api-web/blob/master/swagger.yaml
 
 with 
 
-https://github.com/cloud-barista/cb-mcks/blob/master/src/docs/swagger.yaml
+https://github.com/cloud-barista/cb-ladybug/blob/master/src/docs/swagger.yaml
 
 GitHub pages will update the page automatically.
